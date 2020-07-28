@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import WeatherCard from "./components/WeatherCard/component";
+import "./App.css";
 
 function App() {
+  const data = async () => {
+    const apiRes = await fetch(
+      "http://api.openweathermap.org/data/2.5/weather?q=tel-aviv&units=metric&appid=37869e478effbcdde9a2e9adc326d2bd"
+    );
+    const resJSON = await apiRes.json();
+    return resJSON;
+  };
+  data().then((res) => {
+    console.log(res.main.temp);
+    console.log(res.sys.country);
+    console.log(res.weather[0].main);
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <WeatherCard
+        temp={-20}
+        condition="Clouds"
+        city="Tel Aviv"
+        country="Israel"
+      />
+      <WeatherCard
+        temp={5}
+        condition="Clear"
+        city="Tel Aviv"
+        country="Israel"
+      />
     </div>
   );
 }
