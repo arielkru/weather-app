@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   const data = async () => {
     const apiRes = await fetch(
-      "http://api.openweathermap.org/data/2.5/weather?q=tel-aviv&units=metric&appid=37869e478effbcdde9a2e9adc326d2bd"
+      "http://api.openweathermap.org/data/2.5/weather?q=tel-aviv&units=metric&appid=<token>"
     );
     const resJSON = await apiRes.json();
     return resJSON;
