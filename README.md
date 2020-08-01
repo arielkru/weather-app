@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Features
+
+1. API call and updating weather details
+2. Hover on the city name effects
+3. Draggable weather component
+4. Changin background depending on the temperature
+5. Changing icon depending on weather condition
+
 ## Available Scripts
 
 In the project directory, you can run:
