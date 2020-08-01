@@ -3,7 +3,6 @@
 .App {
   margin: 30px auto;
   color: white;
-  display: flex;
-  flex-direction: row;
-  padding: 0 400px;
+  padding: auto;
+  display: grid;
 }
