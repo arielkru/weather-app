@@ -2,6 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Features
 
+![screenshot](https://github.com/arielkru/weather-app/blob/master/Screen%20Shot%202020-08-01%20at%2023.55.52.png)
+
 1. API call and updating weather details
 2. Hover on the city name effects
 3. Draggable weather component
