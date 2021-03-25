@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Features
 
 ![screenshot](https://github.com/arielkru/weather-app/blob/master/Screen%20Shot%202020-08-01%20at%2023.55.52.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farielkru%2Fweather-app.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Farielkru%2Fweather-app?ref=badge_shield)
 
 1. API call and updating weather details
 2. Hover on the city name effects
@@ -76,3 +77,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Farielkru%2Fweather-app.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Farielkru%2Fweather-app?ref=badge_large)
